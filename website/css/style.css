@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #E5E5E5;
+}
+body ul li {
+  list-style: none;
+}
+
+header nav {
+  background-color: #345765;
+  width: 100%;
+}
+header nav ul {
+  display: flex;
+  justify-content: flex-end;
+  max-width: 1400px;
+  margin: auto;
+}
+header nav ul li {
+  padding: 3.12rem 0;
+}
+header nav ul li a {
+  padding: 1rem 0rem 1rem 3rem;
+  color: #FFFFFF;
+}
+header h1 {
+  margin: 4rem 70% 2rem 0;
+  color: #34A58A;
+}
+header img {
+  margin: auto;
+  max-width: 1400px;
+  border-radius: 1rem;
+}
+header div {
+  width: 1400px;
+  margin: auto;
+}
+header div div {
+  display: flex;
+}
+header div div div.triche_1 {
+  display: flex;
+  flex-direction: column;
+}
+header div div div.triche_1 section {
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+}
+header div div div.triche_1 section:nth-of-type(2) a {
+  color: #34A58A;
+}
+header div div div.triche_1 section p {
+  margin: 1rem 0;
+}
+header div div div.triche_1 section img {
+  width: 1rem;
+  padding-right: 5px;
+}
+header div section:last-of-type {
+  margin-left: 5rem;
+}
+
+main {
+  max-width: 1600px;
+  margin: auto;
+}
+main h2 {
+  font-size: 2.25rem;
+  margin: 1rem 0px;
+}
+main section {
+  margin: 5rem 0rem;
+  padding: 2rem 1rem 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #FFFFFF;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+main section span {
+  display: flex;
+  justify-content: space-between;
+}
+main section span button {
+  font-size: 1.5rem;
+  background-color: #34A58A;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+}
+main section span button a {
+  color: #FFFFFF;
+  padding: 2rem;
+}
+main section div {
+  display: flex;
+  flex-direction: row;
+}
+main section div div {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+main section div div article {
+  margin: 2rem 0px;
+  position: relative;
+}
+main section div div article h3 {
+  font-size: 24px;
+}
+main section div div article p {
+  font-size: 18px;
+}
+main section div div article p:nth-of-type(1) {
+  font-size: 14px;
+  padding-bottom: 1.5rem;
+}
+main section div div article a.savoir {
+  position: absolute;
+  display: flex;
+  font-size: 24px;
+  color: #34A58A;
+  bottom: 5%;
+  right: 5%;
+}
+main section div div article a.savoir span {
+  border: 1px solid;
+  border-radius: 100%;
+}
+main section div div article img {
+  float: left;
+  width: 21.1rem;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #345765;
+}
+footer div {
+  margin: auto;
+  display: flex;
+}
+footer div span {
+  margin-right: 10rem;
+}
+footer div span div h3 {
+  margin: 2rem 0;
+}
+footer div span div img {
+  width: 1.25rem;
+  margin-right: 0.5rem;
+}
+footer div span div ul {
+  display: flex;
+}
+footer div span div ul li a {
+  padding-right: 0.5rem;
+  color: #FFFFFF;
+}
+footer div span h3 {
+  color: #FFFFFF;
+  text-decoration: underline;
+  font-size: 22px;
+}
+footer div span p {
+  color: #FFFFFF;
+}
+footer div div {
+  display: flex;
+  flex-direction: column;
+}
+footer div div img {
+  width: 7.2rem;
+}
+footer p.made {
+  text-align: center;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+  color: #FFFFFF;
+  position: relative;
+  opacity: 50%;
+}
+footer p.made::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  top: 3rem;
+  border: 1px solid #FFFFFF;
+  left: 0;
+}
+
+/*# sourceMappingURL=style.css.map */
